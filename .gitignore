@@ -1,7 +1,15 @@
 # See https://help.github.com/ignore-files/ for more about ignoring files.
 
 # dependencies
-/node_modules
+/node_modules/*
+!/node_modules/@uniswap/
+/node_modules/@uniswap/default-token-list
+/node_modules/@uniswap/lib
+/node_modules/@uniswap/token-lists
+/node_modules/@uniswap/v2-core
+/node_modules/@uniswap/v2-periphery
+!/node_modules/@uniswap/sdk
+/node_modules/@uniswap/sdk/node_modules
 
 # testing
 /coverage
